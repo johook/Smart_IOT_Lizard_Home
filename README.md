@@ -1,6 +1,6 @@
 # Smart_IOT_Lizard_Home(스마트 IOT 도마뱀 사육장)
 <br><br>
-보고서: [SmartIoTGecko_LIZH (1).pdf](https://github.com/johook/Data-Synchronization/files/11540687/SmartIoTGecko_LIZH.1.pdf)
+보고서: [SmartIoTGecko_LIZH.pdf](https://github.com/johook/Data-Synchronization/files/11540687/SmartIoTGecko_LIZH.1.pdf)
 <br><br>
 ## 개요
 ### 개발동기 및 목적
