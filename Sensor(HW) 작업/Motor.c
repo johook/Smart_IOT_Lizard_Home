@@ -54,18 +54,17 @@ int main() //특정시간이 되면 급양기를 45*n도(n= 특정시간이 되�
 	//시간이 00:00:00이면 while loop 돌려줌
 	while (1)
 	{
-		if (t->tm_hour == 0){
-			if (t->tm_min == 0){
-				if (t->tm_sec == 0){
-					count++;
-					if (count == 8) break;	//급양기의 칸이 7칸만 사용가능->7번만 돌아야함
-					for (int i = count; i < count + 1; i++){
-						forward(speed, STEP * i); delay(2000);
-						backward(speed, STEP * i); delay(2000);
-					}
-				}
+		if (t->tm_hour == 0 && t->tm_min == 0 && t->tm_sec == 0)
+		{
+			count++;
+			if (count == 8) break; //급양기의 칸이 7칸만 사용가능->7번만 돌아야함
+			for (int i = count; i < count + 1; i++)
+			{
+				forward(speed, STEP * i); delay(2000);
+				backward(speed, STEP * i); delay(2000);
 			}
 		}
-  }
+	]
+		
 	return 0;
 }
